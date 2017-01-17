@@ -1,4 +1,4 @@
-public class Solution {
+public class RansomNote {
     public boolean canConstruct(String ransomNote, String magazine) {
         int[] charFreqArray = new int[26];
         char ch;

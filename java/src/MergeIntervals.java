@@ -1,5 +1,10 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
 //Given a collection of intervals, merge all overlapping intervals.
-public class Solution {
+public class MergeIntervals {
     public List<Interval> merge(List<Interval> intervals) {
         List<Interval> slotsList = new ArrayList<Interval>();
         Interval current;
@@ -26,5 +31,10 @@ public class Solution {
             }
         }
         return slotsList;
+    }
+
+    class Interval{
+        long start;
+        long end;
     }
 }

@@ -4,7 +4,7 @@ import java.io.*;
 
 /*Given a word and a text, return the count of the occurences of anagrams of the word in the text(For eg: anagrams of word for are for, ofr, rof etc.))
 */
-class GetAnagramCount {
+public class GetAnagramCount {
 	public static void main (String[] args) {
 		//code
 		Scanner scanner = new Scanner(System.in);

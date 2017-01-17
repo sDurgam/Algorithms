@@ -1,3 +1,5 @@
+public class MoveZeros{
+
 public void moveZeroes(int[] nums) {
         if(nums == null || nums.length == 0) return;
         int q = -1;
@@ -16,3 +18,4 @@ public void moveZeroes(int[] nums) {
             }
         }
     }
+  }
